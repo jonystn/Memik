@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Memics</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="" href="index.js" />
+        </head>
+
+<body>
+        <div id="header">
+        <img src="https://www.dropbox.com/s/s97bqmcpumacjk4/phrases.svg?raw=1" id=icon class="img" alt="phrases">
+        <img src="https://www.dropbox.com/s/ahx5do5e1dte6yc/music.svg?raw=1" class="img" alt="music">
+        <img src="https://www.dropbox.com/s/irgblwk4xxqfu2z/learning.svg?raw=1" class="img" alt="learning">
+        <img src="https://www.dropbox.com/s/6if8fsu6p84u6k1/favorites.svg?raw=1" class="img" alt="favorites">
+        <img src="https://www.dropbox.com/s/decgj4nraqc9eu5/records.svg?raw=1" class="img" alt="records">
+
+        <div class="text">phrases</div>
+        <div class="text">music</div>
+        <div class="text">learning</div>
+        <div class="text">favorites</div>
+        <div class="text">records</div>
+        </div>
+
+<div class="content">
+        <p>Es geht immer ums Vollenden</p>
+        <p><strong>Der Nino aus Wien</strong></p>
+</div>
+
+<hr>
+
+<div class="ipa">
+        <p>vi: aɪn ʃvam zaʊkst 
+du: das jɛtst aʊf 
+ʊnt fɛrarbaɪtəst ɛs dan 
+vɛn das jɛtst laŋ
+gənu:k vɛk ɪst  
+ʊm tsu: vɪsən vas ɛs kan </p>
+</div>
+
+
+<div class="app">
+        <div class="actions-holder">
+            <button id="buttonPlay" class="button button--play" disabled></button>
+            <button id="buttonPause" class="button button--pause" disabled></button>
+          <button id="buttonRecord" class="button button--record"></button>
+        </div>
+
+        <div id="trackHolder" class="tracks"></div>
+    </div>
+
+    <template id="templateTrack">
+        <div class="track">
+            <audio controls loop></audio>
+
+            <div class="track__actions">
+                <button class="track__button track__button--play"></button>
+                <button class="track__button track__button--pause" disabled></button>
+            </div>
+
+            <input type="text" class="track__name" placeholder="track name">
+
+            <button class="track__button track__button--remove"></button>
+        </div>
+    </template>
+
+</body>
+
+</html>

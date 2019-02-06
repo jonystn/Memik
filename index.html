@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Memics</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="" href="index.js" />
+        </head>
+
+<body>
+        
+		<div class="tab_container">
+			<input id="tab1" type="radio" name="tabs">
+			<label for="tab1"><i class="fa fa-comment"></i><br><span>phrases</span></label>
+
+			<input id="tab2" type="radio" name="tabs" checked>
+			<label for="tab2"><i class="fa fa-music"></i><br><span>music</span></label>
+
+			<input id="tab3" type="radio" name="tabs">
+			<label for="tab3"><i class="fa fa-graduation-cap"></i><br><span>learning</span></label>
+
+			<input id="tab4" type="radio" name="tabs">
+			<label for="tab4"><i class="fa fa-star"></i><br><span>favorites</span></label>
+
+			<input id="tab5" type="radio" name="tabs">
+			<label for="tab5"><i class="fa fa-download"></i><br><span>records</span></label>
+
+			<section id="content1" class="tab-content">
+            <h3>phrases</h3>
+        
+			</section>
+
+			<section id="content2" class="tab-content">
+                             
+<div class="tittle">
+        <a class="btn" href="#"><i id="fav-btn" class="fa fa-star"></i></a>
+        <h5>Es geht immer ums Vollenden</h5>
+        <h4><strong>Der Nino aus Wien</strong></h4>
+</div>
+
+
+
+
+        <hr>
+
+
+
+  
+<div class="ipa">
+        <p>vi: aɪn ʃvam zaʊkst 
+du: das jɛtst aʊf 
+ʊnt fɛrarbaɪtəst ɛs dan 
+vɛn das jɛtst laŋ
+gənu:k vɛk ɪst  
+ʊm tsu: vɪsən vas ɛs kan </p>
+</div>
+
+
+<div class="app">
+        <div class="actions-holder">
+            
+            <button id="buttonPause" class="button button--pause" disabled></button>
+          <button id="buttonPlay" class="button button--play" disabled></button>
+          <button id="buttonRecord" class="button button--record"></button>
+        </div>
+
+        <div id="trackHolder" class="tracks"></div>
+    </div>
+
+    <template id="templateTrack">
+        <div class="track">
+            <audio controls loop></audio>
+
+            <div class="track__actions">
+                <button class="track__button track__button--play"></button>
+                <button class="track__button track__button--pause" disabled></button>
+            </div>
+
+            <input type="text" class="track__name" placeholder="track name">
+
+            <button class="track__button track__button--remove"></button>
+        </div>
+    </template>
+			</section>
+
+			<section id="content3" class="tab-content">
+				<h3>/i/</h3>
+		      	<p>i:nən   zi:    fi:l    vi:    li:kt    ni:    li:bə    li:gə    fli:gə    zi:bən    ri:zɪç</p>
+		      	<p>ihnen   sie   viel   wie liegt   nie   liebe   liege Fliege   sieben   riesig
+</p>
+			</section>
+
+			<section id="content4" class="tab-content">
+				<h3>favorites</h3>
+		      	<div class="slider-wrap">
+  <div class="slider" id="slider">
+    <div class="holder">
+      <div class="slide" id="slide-0"><span class="temp">pag1</span></div>
+      <div class="slide" id="slide-1"><span class="temp">pag2</span></div>
+        <div class="slide" id="slide-2"><span class="temp">pag3</span></div>
+    </div>
+  </div>
+  <nav class="slider-nav">
+    <a href="#slide-0" class="active">Slide 0</a> 
+    <a href="#slide-1">Slide 1</a> 
+    <a href="#slide-2">Slide 2</a> 
+  </nav>
+</div>
+			</section>
+
+			<section id="content5" class="tab-content">
+				<h3>records</h3>
+		      	
+			</section>
+		</div>
+
+
+</body>
+
+</html>

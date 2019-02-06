@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="29px" viewBox="0 0 36 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>favorites</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="iPhone-8" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-237.000000, -54.000000)">
+        <path d="M262.733,54 C259.356,54 256.38,55.689 254.692,58.342 C253.003,55.689 250.027,54 246.65,54 C241.343,54 237,58.342 237,63.65 C237,73.219 254.692,82.949 254.692,82.949 C254.692,82.949 272.383,73.299 272.383,63.65 C272.383,58.342 268.04,54 262.733,54" id="favorites" fill="#1B263E"></path>
+    </g>
+</svg>
